@@ -6,7 +6,7 @@ import React  from 'react';
         <div className = "nasa-photo-wrapper" >
             <h3>{props.photo.title}</h3>
             <p>{props.photo.date}</p>
-            <img src = {props.photo.hdurl()}/>
+            <img src = {props.photo.hdurl} alt= 'nasaPhoto'/>
             <p>{props.photo.explanation}</p>
         </div>
     )
